@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  width: 90%;
+  max-width: 100%;
+  min-width: 460px;
+}
+
+.header_box {
+  height: 113px;
+  width: 480px;
+  margin: auto;
+  display: block;
+}
+
+.header_box img {
+  height: 113px;
+  width: 351px;
+}
+
+.bottom {
+  display: flex;
+}
+
+.body_box {
+  width: 100%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search_box {
+  height: 60px;
+  background-color: #eeeeee;
+  padding: 1px;
+  margin: 0 0 2px 0;
+}
+
+.special_search_box {
+  height: 76px;
+  background-color: #7ee5da;
+  padding: 10px 0;
+  flex: 37%;
+}
+
+.help_box {
+  height: 76px;
+  background-color: #70ccc2;
+  padding: 5px;
+  margin: 0 2px 0 2px;
+  flex: 19.5%;
+  font-size: small;
+}
+
+.subscription_box {
+  height: 76px;
+  background-color: #62b3aa;
+  padding: 3px;
+  flex: 43.5%;
+  font-size: small;
+}
+
+.footer_box {
+  padding: 17px;
+  clear: both;
+  font-size: small;
+}
